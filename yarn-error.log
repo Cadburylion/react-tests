@@ -1,0 +1,62 @@
+Arguments: 
+  /home/cadburylion/.nvm/versions/node/v8.7.0/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/cadburylion/bin:/home/cadburylion/.local/bin:/home/cadburylion/.nvm/versions/node/v8.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files (x86)/Razer Chroma SDK/bin:/mnt/c/Program Files/Razer Chroma SDK/bin:/mnt/c/ProgramData/Oracle/Java/javapath_target_159500:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Windows/System32:/mnt/c/Windows:/mnt/c/Windows/System32/wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files (x86)/Yarn/bin:/mnt/c/Windows/System32/LibreSSL:/mnt/c/Program Files/Git/cmd:/mnt/c/Go/bin:/mnt/c/Users/Matthew/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Matthew/AppData/Local/atom/bin:/mnt/c/Program Files/Microsoft VS Code/bin:/mnt/c/Users/Matthew/AppData/Local/atom/bin:/mnt/c/Users/Matthew/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Heroku/bin:/mnt/c/Go/bin:/snap/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.7.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "redux-simple-starter",
+    "version": "1.0.0",
+    "description": "Simple starter package for Redux with React and Babel support",
+    "main": "index.js",
+    "repository": "git@github.com:StephenGrider/ReduxSimpleStarter.git",
+    "scripts": {
+      "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+      "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
+      "test:watch": "npm run test -- --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.2.1",
+      "babel-loader": "^6.2.0",
+      "babel-preset-es2015": "^6.1.18",
+      "babel-preset-react": "^6.1.18",
+      "chai": "^3.5.0",
+      "chai-jquery": "^2.0.0",
+      "jquery": "^2.2.1",
+      "jsdom": "^8.1.0",
+      "mocha": "^2.4.5",
+      "react-addons-test-utils": "^0.14.7",
+      "webpack": "^1.12.9",
+      "webpack-dev-server": "^1.14.0"
+    },
+    "dependencies": {
+      "babel-preset-stage-1": "^6.1.18",
+      "lodash": "^3.10.1",
+      "react": "^0.14.3",
+      "react-dom": "^0.14.3",
+      "react-redux": "4.3.0",
+      "react-router": "^2.0.1",
+      "redux": "^3.0.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/home/cadburylion/.cache/yarn/v1/npm-lodash-4.17.5-99a92d65c0272debe8c96b6057bc8fbfa3bed511/fp/entries.js' -> '/mnt/c/Users/Matthew/Projects/Study/testing/node_modules/babel-register/node_modules/lodash/fp/entries.js'
