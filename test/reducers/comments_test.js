@@ -4,6 +4,10 @@ import commentReducer from '../../src/reducers/comments.js';
 
 describe('Comments Reducers', () => {
   it('handles action with unknown type', () => {
+    // Call specific reducer and pass in
+    // State and Action
+    // And asset expected return state
+
     expect(commentReducer(undefined, {})).to.eql([]);
   });
 

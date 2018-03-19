@@ -9,9 +9,11 @@ import { createStore } from 'redux';
 import reducers from '../src/reducers';
 import chaiJquery from 'chai-jquery';
 
-// Set up testing environment to run like ab rowser in the command line
+// Set up testing environment to run like a browser in the command line
 global.document = jsdom.jsdom('<!doctype html><html><body></body></html>');
+// Give jQuery access to the window object
 global.window = global.document.defaultView;
+// Create '$' variable containing the jQuery library with access to the simulated DOM
 const $ = jquery(global.window);
 
 // build 'renderComponent' helper that should render a given react className
